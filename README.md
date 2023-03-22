@@ -5,11 +5,11 @@
 **1.1 Downolad HEASoft source code suitbale for your system (e.g. macOS, Ubuntu, etc) at:**
 [https://heasarc.gsfc.nasa.gov/docs/software/lheasoft/download.html](https://heasarc.gsfc.nasa.gov/docs/software/lheasoft/download.html)
 
-<u>Do not choose the Pre-Compiled Binary type!</u>
+<ins>Do not choose the Pre-Compiled Binary type!</ins>
 
-<u>Choose "All" in STEP2 and click 'Submit' only once. </u>
+<ins>Choose "All" in STEP2 and click 'Submit' only once. </ins>
 
-<u>Ensure you have enough memory (> 10 GB) to download and install heasoft successfully!</u>
+<ins>Ensure you have enough memory (> 10 GB) to download and install heasoft successfully!</ins>
 
 **1.2 Install the prerequisite packages**
 ```mermaid
@@ -104,9 +104,9 @@ For users of C Shell variants (csh, tcsh):
     
 This step will capture the screen outputs to text files, and if you want to see the outputs instantaneously, just ./configure, make and make install.
 
-<u> At the configure step -- only if you see "Finished" at the end of the output, it means the configuration is successful. If errors occur, be patient to solve them step by step. </u>
+<ins> At the configure step -- only if you see "Finished" at the end of the output, it means the configuration is successful. If errors occur, be patient to solve them step by step. </ins>
 
-<u> The make step may take a long time (~ 1 hour). If your process finished in a few minutes, check if there are any errors. </u>
+<ins> The make step may take a long time (~ 1 hour). If your process finished in a few minutes, check if there are any errors. </ins>
 
 **1.4 Initialization**
 
@@ -126,7 +126,7 @@ where (PLATFORM) is a placeholder for the platform-specific string denoting your
 
 x86_64-pc-linux-gnu-libc2.31
 
-<u>You can always find your PLATFORM in the heasoft-6.31/ directory (i.e. the name of a sub-directory)</u>
+<ins>You can always find your PLATFORM in the heasoft-6.31/ directory (i.e. the name of a sub-directory)</ins>
 
 Once you finish this step, open a new terminal and try:
 
@@ -225,10 +225,10 @@ And type as:
 
     Enter your choice (configuration of packages can be done in any order): 0
 
-<u>NOTE!</u>
-**<u>1. Press enter to accept all default flags.</u>
-<u>2. Type y (yes) for all optional settings.</u>
-<u>3. The full name and the location of your cfitsio library can be find using the command "locate libcfitsio.a" (the libcfitsio.a file is placed in ~/lib/ directory)</u>**
+***NOTE!***   
+<ins>***1. Press enter to accept all default flags.*** </ins>  
+<ins>***2. Type y (yes) for all optional settings.*** </ins>    
+<ins>***3. The full name and the location of your cfitsio library can be find using the command "locate libcfitsio.a" (the libcfitsio.a file is placed in ~/lib/ directory).*** </ins>
 
 Then go to the autoconf directory and run configure:
 
@@ -263,7 +263,7 @@ Finally, run make clean to remove those unnecessary files and enable the eSASS e
 Users with macOS can use Docker to run eSASS on their computers and do not have to download the eSASS itself. See:
 [https://docs.docker.com/desktop/install/mac-install/](https://docs.docker.com/desktop/install/mac-install/)
 
-<u>Note that you should check your macOS version and make sure you have at least 4 GB of RAM.</u>
+<ins>Note that you should check your macOS version and make sure you have at least 4 GB of RAM.</ins>
 
 (1) Get Docker on your system
 
@@ -280,11 +280,11 @@ Users with macOS can use Docker to run eSASS on their computers and do not have 
 
         docker run --volume /path/to/your/data:/home/idies/workspace/data -ti --rm erosita/esass:latest /bin/bash
 
-<u>The command ***docker run -it --rm erosita/esass:latest /bin/bash*** will start a container running the full esass image, which is required if you have not downloaded the eROSITA CALDB. </u>
+<ins>The command ***docker run -it --rm erosita/esass:latest /bin/bash*** will start a container running the full esass image, which is required if you have not downloaded the eROSITA CALDB. </ins>
 
-<u>The description ***--volume*** makes host machine directories accessible inside the container.</u>
+<ins>The description ***--volume*** makes host machine directories accessible inside the container.</ins>
 
-<u>The command ***/path/to/your/data:/home/idies/workspace/data***  points eSASS data workpath to your local directory (directory you store the eROSITA data and the eSASS outputs).</u>
+<ins>The command ***/path/to/your/data:/home/idies/workspace/data***  points eSASS data workpath to your local directory (directory you store the eROSITA data and the eSASS outputs).</ins>
 
 * Then you can use the eSASS tasks in the container!
 
@@ -294,7 +294,7 @@ For reference:
 
 * * *
 
-<u>If you have more questions about the installation, please feel free to contact me.</u>
+<ins>If you have more questions about the installation, please feel free to contact me.</ins>
 
 My email: helin@smail.nju.edu.cn
 
