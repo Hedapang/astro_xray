@@ -230,6 +230,10 @@ And type as:
 <ins>***2. Type y (yes) for all optional settings.*** </ins>    
 <ins>***3. The full name and the location of your cfitsio library can be find using the command "locate libcfitsio.a" (the libcfitsio.a file is placed in ~/lib/ directory).*** </ins>
 
+When the configure step is done, you will see a "Good Bye". Then you should run the command:
+
+    make
+
 Then go to the autoconf directory and run configure:
 
     cd /<your eSASS path>/eSASS4EDR/autoconf  
