@@ -5,10 +5,11 @@
 
 **2. An example for the presentation is attached to the guide. Use it as a reference, be creative and add your own thoughts!**
 
-**3. Requirements: You should introduce some basic information of your targets, display its eROSITA image and show the spectra and fitting results in the report. Introduce some related works (if it has) and discuss your results would be better.**
+**3. Requirements: You should introduce some basic information of your targets, display their eROSITA images and show the spectra and fitting results in the report. Introduce some related works (if it has) and discuss your results would be better.**
 
 
 
+* * *
 ### Software Installation 
 #### 1. Install HEASoft
 **1.1 Downolad HEASoft source code suitbale for your system (e.g. macOS, Ubuntu, etc) at:**
