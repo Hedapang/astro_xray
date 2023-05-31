@@ -1,3 +1,8 @@
+# UPDATE: For data analysis and the presentation!
+**1. Plese refer to the updated guide (the PDF) if you have trouble with the eSASS tasks.**
+**2. An example for the presentation is attached to the guide. Use it as a reference, be creative and add your own thoughts!**
+**3. Requirements: You should introduce some basic information of your targets, display its eROSITA image and show the spectra and fitting results in the report. Introduce some related works (if it has) and discuss your results would be better.**
+
 # astro_xray
 
 ### Software Installation 
