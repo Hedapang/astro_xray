@@ -46,7 +46,7 @@ then
 		erbackmap image="eFEDs_${fid}_counts.fits" expimage="eFEDs_${fid}_exp.fits" boxlist="boxlist_local.fits" detmask="eFEDS${fid}_detmask.fits" bkgimage="eFEDS${fid}_backmap.fits" emin=200 emax=5000 cheesemask="cheesemask_eFEDS${fid}.fits"
 
 		echo "Run erbox in map mode"
-		erbox images="eFEDs_${fid}_counts.fits" boxlist="boxlist_local.fits" expimages="eFEDs_${fid}_exp.fits" detmasks="eFEDS${fid}_detmask.fits" bkgimages="eFEDS${fid}_backmap.fits" emin=200 emax=5000 ecf=1
+		erbox images="eFEDs_${fid}_counts.fits" boxlist="boxlist_map.fits" expimages="eFEDs_${fid}_exp.fits" detmasks="eFEDS${fid}_detmask.fits" bkgimages="eFEDS${fid}_backmap.fits" emin=200 emax=5000 ecf=1
 
 		echo "Run ermldet in"
 		ermldet mllist="eFEDS${fid}_mllist.fits" boxlist="boxlist_local.fits" images="eFEDs_${fid}_counts.fits" expimages="eFEDs_${fid}_exp.fits" detmasks="eFEDS${fid}_detmask.fits" bkgimages="eFEDS${fid}_backmap.fits" extentmodel=beta srcimages="sourceimage_${fid}.fits" emin=200 emax=5000
